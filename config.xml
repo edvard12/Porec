@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "nu.porec.guiden"
-        version   = "1.0.1">
+        id        = "nu.porec.guide"
+        version   = "1.0.2">
 
-    <name>Porec guide</name>
+    <name>Porec guide </name>
 
     <description>
-       Porec - Kroatiens pärla!
+        Porec - Kroatiens pärla!
     </description>
 
     <author href="http://porec.nu" email="info@porec.nu">
@@ -22,14 +23,14 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <gap:plugin name="com.adobe.plugins.gaplugin" version="2.3.1" />
+    <gap:plugin name="com.adobe.plugins.gaplugin"/>
 
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
         -->  
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions" value="none"/>
  
 
 
