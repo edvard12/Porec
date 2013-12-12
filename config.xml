@@ -97,8 +97,8 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
-        <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.NetworkManager" />
+        <feature name="NetworkStatus2">
+        <param name="android-package" value="org.apache.cordova.NetworkManager2" />
         </feature>
     <!--
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
